@@ -8,13 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func camXuc1BtnDidTap(_ sender: Any) {
+        self.navigationController?.pushViewController(CamXuc1ViewController(), animated: true)
+    }
 
 }
 
