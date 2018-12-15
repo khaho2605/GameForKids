@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA2D7A8921C5057C00ADDE5D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8821C5057C00ADDE5D /* Array.swift */; };
+		EA2D7A8C21C507E100ADDE5D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8B21C507E100ADDE5D /* BaseViewController.swift */; };
 		EA9EF49421BE9B37004AF132 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9EF49321BE9B37004AF132 /* AppDelegate.swift */; };
 		EA9EF49621BE9B37004AF132 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9EF49521BE9B37004AF132 /* ViewController.swift */; };
 		EA9EF49921BE9B37004AF132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9EF49721BE9B37004AF132 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		EA2D7A8821C5057C00ADDE5D /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		EA2D7A8B21C507E100ADDE5D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EA9EF49021BE9B37004AF132 /* GameForKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameForKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9EF49321BE9B37004AF132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA9EF49521BE9B37004AF132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		EA2D7A8A21C507CD00ADDE5D /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				EA2D7A8B21C507E100ADDE5D /* BaseViewController.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
 		EA9EF48721BE9B37004AF132 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		EA9EF49221BE9B37004AF132 /* GameForKids */ = {
 			isa = PBXGroup;
 			children = (
+				EA2D7A8A21C507CD00ADDE5D /* BaseClass */,
 				EA2D7A8721C5054800ADDE5D /* Utils */,
 				EA9EF49321BE9B37004AF132 /* AppDelegate.swift */,
 				EA9EF49521BE9B37004AF132 /* ViewController.swift */,
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA2D7A8921C5057C00ADDE5D /* Array.swift in Sources */,
+				EA2D7A8C21C507E100ADDE5D /* BaseViewController.swift in Sources */,
 				EA9EF49621BE9B37004AF132 /* ViewController.swift in Sources */,
 				EA9EF49421BE9B37004AF132 /* AppDelegate.swift in Sources */,
 			);
