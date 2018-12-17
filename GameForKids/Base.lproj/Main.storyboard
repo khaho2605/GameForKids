@@ -31,7 +31,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="487" height="45"/>
                                                 <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="1.CẢM XÚC">
+                                                <state key="normal" title="NHẬN BIẾT CẢM XÚC">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -47,7 +47,7 @@
                                                 <rect key="frame" x="0.0" y="55" width="487" height="45"/>
                                                 <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="2.ĐI XE ĐẠP">
+                                                <state key="normal" title="NHẬN BIẾT PHƯƠNG TIỆN">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -55,12 +55,15 @@
                                                         <integer key="value" value="8"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="phuongTienBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d2Y-15-aic"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKR-Y7-o4e">
                                                 <rect key="frame" x="0.0" y="110" width="487" height="45"/>
                                                 <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="3.CHỜ ĐẾN LƯỢT">
+                                                <state key="normal" title="NHẬN BIẾT ĐỘNG VẬT">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -68,6 +71,9 @@
                                                         <integer key="value" value="8"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="dongVatBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CgG-vU-2eR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -78,7 +84,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="487" height="45"/>
                                                 <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="4.CHƠI XE VÁN TRƯỢT">
+                                                <state key="normal" title="NHẬN BIẾT NHẠC CỤ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -86,12 +92,15 @@
                                                         <integer key="value" value="8"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="nhacCuBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNm-yu-lSG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjm-n1-fW8">
                                                 <rect key="frame" x="0.0" y="55" width="487" height="45"/>
                                                 <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="5.CHƠI BÓNG RỔ">
+                                                <state key="normal" title="PHẢN XẠ VỚI BONG BÓNG">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -99,12 +108,15 @@
                                                         <integer key="value" value="8"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="bongBongBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ct-3W-zyF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUL-G1-QQZ">
                                                 <rect key="frame" x="0.0" y="110" width="487" height="45"/>
                                                 <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="6.CHƠI ĐÁ BÓNG">
+                                                <state key="normal" title="CHĂM SÓC BẢN THÂN">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>

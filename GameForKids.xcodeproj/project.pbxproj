@@ -14,6 +14,14 @@
 		EA11D64B21C7DA0A00EF6120 /* be that gioi.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64721C7DA0A00EF6120 /* be that gioi.wav */; };
 		EA11D64C21C7DA0A00EF6120 /* Correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64821C7DA0A00EF6120 /* Correct.mp3 */; };
 		EA11D64E21C7DA1600EF6120 /* AllFallDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64D21C7DA1600EF6120 /* AllFallDown.mp3 */; };
+		EA11D65321C7E70E00EF6120 /* DongVatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11D65121C7E70E00EF6120 /* DongVatViewController.swift */; };
+		EA11D65421C7E70E00EF6120 /* DongVatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA11D65221C7E70E00EF6120 /* DongVatViewController.xib */; };
+		EA11D65821C7E73100EF6120 /* NhacCuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11D65621C7E73100EF6120 /* NhacCuViewController.swift */; };
+		EA11D65921C7E73100EF6120 /* NhacCuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA11D65721C7E73100EF6120 /* NhacCuViewController.xib */; };
+		EA11D65D21C7E74F00EF6120 /* PhuongTienViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11D65B21C7E74F00EF6120 /* PhuongTienViewController.swift */; };
+		EA11D65E21C7E74F00EF6120 /* PhuongTienViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA11D65C21C7E74F00EF6120 /* PhuongTienViewController.xib */; };
+		EA11D66221C7E7CB00EF6120 /* BubbleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA11D66021C7E7CB00EF6120 /* BubbleViewController.xib */; };
+		EA11D66321C7E7CB00EF6120 /* BubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11D66121C7E7CB00EF6120 /* BubbleViewController.swift */; };
 		EA2D7A8921C5057C00ADDE5D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8821C5057C00ADDE5D /* Array.swift */; };
 		EA2D7A8C21C507E100ADDE5D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8B21C507E100ADDE5D /* BaseViewController.swift */; };
 		EA2D7A9021C50D4600ADDE5D /* CamXuc1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8E21C50D4600ADDE5D /* CamXuc1ViewController.swift */; };
@@ -33,6 +41,14 @@
 		EA11D64721C7DA0A00EF6120 /* be that gioi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "be that gioi.wav"; sourceTree = "<group>"; };
 		EA11D64821C7DA0A00EF6120 /* Correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Correct.mp3; sourceTree = "<group>"; };
 		EA11D64D21C7DA1600EF6120 /* AllFallDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AllFallDown.mp3; sourceTree = "<group>"; };
+		EA11D65121C7E70E00EF6120 /* DongVatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DongVatViewController.swift; sourceTree = "<group>"; };
+		EA11D65221C7E70E00EF6120 /* DongVatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DongVatViewController.xib; sourceTree = "<group>"; };
+		EA11D65621C7E73100EF6120 /* NhacCuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NhacCuViewController.swift; sourceTree = "<group>"; };
+		EA11D65721C7E73100EF6120 /* NhacCuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NhacCuViewController.xib; sourceTree = "<group>"; };
+		EA11D65B21C7E74F00EF6120 /* PhuongTienViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhuongTienViewController.swift; sourceTree = "<group>"; };
+		EA11D65C21C7E74F00EF6120 /* PhuongTienViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhuongTienViewController.xib; sourceTree = "<group>"; };
+		EA11D66021C7E7CB00EF6120 /* BubbleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BubbleViewController.xib; sourceTree = "<group>"; };
+		EA11D66121C7E7CB00EF6120 /* BubbleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleViewController.swift; sourceTree = "<group>"; };
 		EA2D7A8821C5057C00ADDE5D /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		EA2D7A8B21C507E100ADDE5D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EA2D7A8E21C50D4600ADDE5D /* CamXuc1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamXuc1ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +87,51 @@
 			path = Sound;
 			sourceTree = "<group>";
 		};
+		EA11D64F21C7E6E800EF6120 /* Cam xuc */ = {
+			isa = PBXGroup;
+			children = (
+				EA2D7A8E21C50D4600ADDE5D /* CamXuc1ViewController.swift */,
+				EA2D7A8F21C50D4600ADDE5D /* CamXuc1ViewController.xib */,
+			);
+			path = "Cam xuc";
+			sourceTree = "<group>";
+		};
+		EA11D65021C7E70000EF6120 /* Dong Vat */ = {
+			isa = PBXGroup;
+			children = (
+				EA11D65121C7E70E00EF6120 /* DongVatViewController.swift */,
+				EA11D65221C7E70E00EF6120 /* DongVatViewController.xib */,
+			);
+			path = "Dong Vat";
+			sourceTree = "<group>";
+		};
+		EA11D65521C7E71500EF6120 /* Nhac Cu */ = {
+			isa = PBXGroup;
+			children = (
+				EA11D65621C7E73100EF6120 /* NhacCuViewController.swift */,
+				EA11D65721C7E73100EF6120 /* NhacCuViewController.xib */,
+			);
+			path = "Nhac Cu";
+			sourceTree = "<group>";
+		};
+		EA11D65A21C7E73800EF6120 /* Phuong Tien */ = {
+			isa = PBXGroup;
+			children = (
+				EA11D65B21C7E74F00EF6120 /* PhuongTienViewController.swift */,
+				EA11D65C21C7E74F00EF6120 /* PhuongTienViewController.xib */,
+			);
+			path = "Phuong Tien";
+			sourceTree = "<group>";
+		};
+		EA11D65F21C7E78E00EF6120 /* Bong Bong */ = {
+			isa = PBXGroup;
+			children = (
+				EA11D66121C7E7CB00EF6120 /* BubbleViewController.swift */,
+				EA11D66021C7E7CB00EF6120 /* BubbleViewController.xib */,
+			);
+			path = "Bong Bong";
+			sourceTree = "<group>";
+		};
 		EA2D7A8721C5054800ADDE5D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +152,12 @@
 		EA2D7A8D21C50D2A00ADDE5D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				EA2D7A8E21C50D4600ADDE5D /* CamXuc1ViewController.swift */,
-				EA2D7A8F21C50D4600ADDE5D /* CamXuc1ViewController.xib */,
+				EA9EF49521BE9B37004AF132 /* MainViewController.swift */,
+				EA11D65F21C7E78E00EF6120 /* Bong Bong */,
+				EA11D65A21C7E73800EF6120 /* Phuong Tien */,
+				EA11D65521C7E71500EF6120 /* Nhac Cu */,
+				EA11D65021C7E70000EF6120 /* Dong Vat */,
+				EA11D64F21C7E6E800EF6120 /* Cam xuc */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -120,7 +185,6 @@
 				EA2D7A8A21C507CD00ADDE5D /* BaseClass */,
 				EA2D7A8D21C50D2A00ADDE5D /* ViewControllers */,
 				EA9EF49321BE9B37004AF132 /* AppDelegate.swift */,
-				EA9EF49521BE9B37004AF132 /* MainViewController.swift */,
 				EA9EF49721BE9B37004AF132 /* Main.storyboard */,
 				EA9EF49A21BE9B39004AF132 /* Assets.xcassets */,
 				EA9EF49C21BE9B39004AF132 /* LaunchScreen.storyboard */,
@@ -187,14 +251,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA11D66221C7E7CB00EF6120 /* BubbleViewController.xib in Resources */,
 				EA9EF49E21BE9B39004AF132 /* LaunchScreen.storyboard in Resources */,
 				EA9EF49B21BE9B39004AF132 /* Assets.xcassets in Resources */,
 				EA11D64421C7D9F800EF6120 /* VoTay.mp3 in Resources */,
 				EA11D64921C7DA0A00EF6120 /* dung roi.wav in Resources */,
 				EA11D64B21C7DA0A00EF6120 /* be that gioi.wav in Resources */,
+				EA11D65E21C7E74F00EF6120 /* PhuongTienViewController.xib in Resources */,
+				EA11D65921C7E73100EF6120 /* NhacCuViewController.xib in Resources */,
 				EA11D64C21C7DA0A00EF6120 /* Correct.mp3 in Resources */,
 				EA11D64A21C7DA0A00EF6120 /* thu cach khac.wav in Resources */,
 				EA11D64321C7D9F800EF6120 /* Wrong.mp3 in Resources */,
+				EA11D65421C7E70E00EF6120 /* DongVatViewController.xib in Resources */,
 				EA9EF49921BE9B37004AF132 /* Main.storyboard in Resources */,
 				EA2D7A9121C50D4600ADDE5D /* CamXuc1ViewController.xib in Resources */,
 				EA11D64E21C7DA1600EF6120 /* AllFallDown.mp3 in Resources */,
@@ -209,9 +277,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA2D7A9021C50D4600ADDE5D /* CamXuc1ViewController.swift in Sources */,
+				EA11D65D21C7E74F00EF6120 /* PhuongTienViewController.swift in Sources */,
 				EA2D7A8921C5057C00ADDE5D /* Array.swift in Sources */,
+				EA11D65321C7E70E00EF6120 /* DongVatViewController.swift in Sources */,
+				EA11D66321C7E7CB00EF6120 /* BubbleViewController.swift in Sources */,
 				EA2D7A8C21C507E100ADDE5D /* BaseViewController.swift in Sources */,
 				EA9EF49621BE9B37004AF132 /* MainViewController.swift in Sources */,
+				EA11D65821C7E73100EF6120 /* NhacCuViewController.swift in Sources */,
 				EA9EF49421BE9B37004AF132 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
