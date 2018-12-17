@@ -33,5 +33,9 @@ class MainViewController: UIViewController {
     @IBAction func bongBongBtnDidTap(_ sender: Any) {
         self.navigationController?.pushViewController(BubbleViewController(), animated: true)
     }
+    
+    @IBAction func chamSocBanThanBtnDidTap(_ sender: Any) {
+        self.navigationController?.pushViewController(ChamSocNewViewController(), animated: true)
+    }
 }
 

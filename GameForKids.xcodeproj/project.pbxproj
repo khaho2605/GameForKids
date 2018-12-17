@@ -22,6 +22,8 @@
 		EA11D65E21C7E74F00EF6120 /* PhuongTienViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA11D65C21C7E74F00EF6120 /* PhuongTienViewController.xib */; };
 		EA11D66221C7E7CB00EF6120 /* BubbleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA11D66021C7E7CB00EF6120 /* BubbleViewController.xib */; };
 		EA11D66321C7E7CB00EF6120 /* BubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11D66121C7E7CB00EF6120 /* BubbleViewController.swift */; };
+		EA11D66721C7F0B200EF6120 /* ChamSocNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11D66521C7F0B200EF6120 /* ChamSocNewViewController.swift */; };
+		EA11D66821C7F0B200EF6120 /* ChamSocNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA11D66621C7F0B200EF6120 /* ChamSocNewViewController.xib */; };
 		EA2D7A8921C5057C00ADDE5D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8821C5057C00ADDE5D /* Array.swift */; };
 		EA2D7A8C21C507E100ADDE5D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8B21C507E100ADDE5D /* BaseViewController.swift */; };
 		EA2D7A9021C50D4600ADDE5D /* CamXuc1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8E21C50D4600ADDE5D /* CamXuc1ViewController.swift */; };
@@ -49,6 +51,8 @@
 		EA11D65C21C7E74F00EF6120 /* PhuongTienViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhuongTienViewController.xib; sourceTree = "<group>"; };
 		EA11D66021C7E7CB00EF6120 /* BubbleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BubbleViewController.xib; sourceTree = "<group>"; };
 		EA11D66121C7E7CB00EF6120 /* BubbleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleViewController.swift; sourceTree = "<group>"; };
+		EA11D66521C7F0B200EF6120 /* ChamSocNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChamSocNewViewController.swift; sourceTree = "<group>"; };
+		EA11D66621C7F0B200EF6120 /* ChamSocNewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChamSocNewViewController.xib; sourceTree = "<group>"; };
 		EA2D7A8821C5057C00ADDE5D /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		EA2D7A8B21C507E100ADDE5D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EA2D7A8E21C50D4600ADDE5D /* CamXuc1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamXuc1ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +136,15 @@
 			path = "Bong Bong";
 			sourceTree = "<group>";
 		};
+		EA11D66421C7F07F00EF6120 /* Cham soc ban than */ = {
+			isa = PBXGroup;
+			children = (
+				EA11D66521C7F0B200EF6120 /* ChamSocNewViewController.swift */,
+				EA11D66621C7F0B200EF6120 /* ChamSocNewViewController.xib */,
+			);
+			path = "Cham soc ban than";
+			sourceTree = "<group>";
+		};
 		EA2D7A8721C5054800ADDE5D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				EA9EF49521BE9B37004AF132 /* MainViewController.swift */,
+				EA11D66421C7F07F00EF6120 /* Cham soc ban than */,
 				EA11D65F21C7E78E00EF6120 /* Bong Bong */,
 				EA11D65A21C7E73800EF6120 /* Phuong Tien */,
 				EA11D65521C7E71500EF6120 /* Nhac Cu */,
@@ -255,6 +269,7 @@
 				EA9EF49E21BE9B39004AF132 /* LaunchScreen.storyboard in Resources */,
 				EA9EF49B21BE9B39004AF132 /* Assets.xcassets in Resources */,
 				EA11D64421C7D9F800EF6120 /* VoTay.mp3 in Resources */,
+				EA11D66821C7F0B200EF6120 /* ChamSocNewViewController.xib in Resources */,
 				EA11D64921C7DA0A00EF6120 /* dung roi.wav in Resources */,
 				EA11D64B21C7DA0A00EF6120 /* be that gioi.wav in Resources */,
 				EA11D65E21C7E74F00EF6120 /* PhuongTienViewController.xib in Resources */,
@@ -284,6 +299,7 @@
 				EA2D7A8C21C507E100ADDE5D /* BaseViewController.swift in Sources */,
 				EA9EF49621BE9B37004AF132 /* MainViewController.swift in Sources */,
 				EA11D65821C7E73100EF6120 /* NhacCuViewController.swift in Sources */,
+				EA11D66721C7F0B200EF6120 /* ChamSocNewViewController.swift in Sources */,
 				EA9EF49421BE9B37004AF132 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
