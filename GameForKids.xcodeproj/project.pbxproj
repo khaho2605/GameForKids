@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA11D64321C7D9F800EF6120 /* Wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64121C7D9F800EF6120 /* Wrong.mp3 */; };
+		EA11D64421C7D9F800EF6120 /* VoTay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64221C7D9F800EF6120 /* VoTay.mp3 */; };
+		EA11D64921C7DA0A00EF6120 /* dung roi.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64521C7DA0A00EF6120 /* dung roi.wav */; };
+		EA11D64A21C7DA0A00EF6120 /* thu cach khac.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64621C7DA0A00EF6120 /* thu cach khac.wav */; };
+		EA11D64B21C7DA0A00EF6120 /* be that gioi.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64721C7DA0A00EF6120 /* be that gioi.wav */; };
+		EA11D64C21C7DA0A00EF6120 /* Correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64821C7DA0A00EF6120 /* Correct.mp3 */; };
+		EA11D64E21C7DA1600EF6120 /* AllFallDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA11D64D21C7DA1600EF6120 /* AllFallDown.mp3 */; };
 		EA2D7A8921C5057C00ADDE5D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8821C5057C00ADDE5D /* Array.swift */; };
 		EA2D7A8C21C507E100ADDE5D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8B21C507E100ADDE5D /* BaseViewController.swift */; };
 		EA2D7A9021C50D4600ADDE5D /* CamXuc1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D7A8E21C50D4600ADDE5D /* CamXuc1ViewController.swift */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA11D64121C7D9F800EF6120 /* Wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wrong.mp3; sourceTree = "<group>"; };
+		EA11D64221C7D9F800EF6120 /* VoTay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VoTay.mp3; sourceTree = "<group>"; };
+		EA11D64521C7DA0A00EF6120 /* dung roi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dung roi.wav"; sourceTree = "<group>"; };
+		EA11D64621C7DA0A00EF6120 /* thu cach khac.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "thu cach khac.wav"; sourceTree = "<group>"; };
+		EA11D64721C7DA0A00EF6120 /* be that gioi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "be that gioi.wav"; sourceTree = "<group>"; };
+		EA11D64821C7DA0A00EF6120 /* Correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Correct.mp3; sourceTree = "<group>"; };
+		EA11D64D21C7DA1600EF6120 /* AllFallDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AllFallDown.mp3; sourceTree = "<group>"; };
 		EA2D7A8821C5057C00ADDE5D /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		EA2D7A8B21C507E100ADDE5D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EA2D7A8E21C50D4600ADDE5D /* CamXuc1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamXuc1ViewController.swift; sourceTree = "<group>"; };
@@ -43,9 +57,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA11D64021C7D9E700EF6120 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				EA11D64D21C7DA1600EF6120 /* AllFallDown.mp3 */,
+				EA11D64721C7DA0A00EF6120 /* be that gioi.wav */,
+				EA11D64821C7DA0A00EF6120 /* Correct.mp3 */,
+				EA11D64521C7DA0A00EF6120 /* dung roi.wav */,
+				EA11D64621C7DA0A00EF6120 /* thu cach khac.wav */,
+				EA11D64221C7D9F800EF6120 /* VoTay.mp3 */,
+				EA11D64121C7D9F800EF6120 /* Wrong.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		EA2D7A8721C5054800ADDE5D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EA11D64021C7D9E700EF6120 /* Sound */,
 				EA2D7A8821C5057C00ADDE5D /* Array.swift */,
 			);
 			path = Utils;
@@ -160,8 +189,15 @@
 			files = (
 				EA9EF49E21BE9B39004AF132 /* LaunchScreen.storyboard in Resources */,
 				EA9EF49B21BE9B39004AF132 /* Assets.xcassets in Resources */,
+				EA11D64421C7D9F800EF6120 /* VoTay.mp3 in Resources */,
+				EA11D64921C7DA0A00EF6120 /* dung roi.wav in Resources */,
+				EA11D64B21C7DA0A00EF6120 /* be that gioi.wav in Resources */,
+				EA11D64C21C7DA0A00EF6120 /* Correct.mp3 in Resources */,
+				EA11D64A21C7DA0A00EF6120 /* thu cach khac.wav in Resources */,
+				EA11D64321C7D9F800EF6120 /* Wrong.mp3 in Resources */,
 				EA9EF49921BE9B37004AF132 /* Main.storyboard in Resources */,
 				EA2D7A9121C50D4600ADDE5D /* CamXuc1ViewController.xib in Resources */,
+				EA11D64E21C7DA1600EF6120 /* AllFallDown.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kha.GameForKids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -348,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kha.GameForKids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
