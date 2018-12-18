@@ -44,7 +44,7 @@ class CamXuc1ViewController: BaseViewController {
     }
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-//        layout()
+        layout()
         arrOrigin = getPos()
         guard let data = arrOrigin.randomArr() as? [CGPoint]  else { return }
         setPosition(arrData: data)
@@ -96,6 +96,7 @@ extension CamXuc1ViewController {
         
         let tagView: Int = recognizer.view?.tag ?? -1
         let playerView = recognizer.view
+
         switch tagView {
         case 1:
             targetView = happyView
@@ -133,42 +134,27 @@ extension CamXuc1ViewController {
 
 extension CamXuc1ViewController {
     func layout() {
-//        let screenHeight: CGFloat = self.view.frame.height
-//        let screenWidth: CGFloat = self.view.frame.width
-//        let topMargin: CGFloat = screenHeight*0.1
-//        let witdhPlayer: CGFloat = screenHeight*0.18
-//        let heightButton: CGFloat = screenHeight*0.08
-//        let margin: CGFloat = 20
-//        let witdhContentView: CGFloat = screenHeight*0.4
-//        let marginPlayer: CGFloat = 16
-//
-//
-//        happyLb.sizeToFit()
-//        sadLb.sizeToFit()
-//        angryLb.sizeToFit()
-//        afraidLb.sizeToFit()
-//
-//        happyView.frame = CGRect(x: margin, y: topMargin, width: witdhContentView, height: witdhContentView)
-//        sadView.frame = CGRect(x: screenWidth - margin - witdhContentView, y: happyView.y, width: witdhContentView, height: witdhContentView)
-//        angryView.frame = CGRect(x: margin, y: screenHeight - margin - witdhContentView, width: witdhContentView, height: witdhContentView)
-//        afraidView.frame = CGRect(x: screenWidth - margin - witdhContentView, y: angryView.y, width: witdhContentView, height: witdhContentView)
-//        happyLb.frame = CGRect(x: happyView.width/2 - happyLb.width/2, y: happyView.height/2 - happyLb.height/2, width: happyLb.width, height: happyLb.height)
-//        sadLb.frame = CGRect(x: sadView.width/2 - sadLb.width/2, y: sadView.height/2 - sadLb.height/2, width: sadLb.width, height: sadLb.height)
-//        angryLb.frame = CGRect(x: angryView.width/2 - angryLb.width/2, y: angryView.height/2 - angryLb.height/2, width: angryLb.width, height: angryLb.height)
-//        afraidLb.frame = CGRect(x: afraidView.width/2 - afraidLb.width/2, y: afraidView.height/2 - afraidLb.height/2, width: afraidLb.width, height: afraidLb.height)
-//
-//        let widthButton: CGFloat = (afraidView.x - margin) - ( angryView.maxX + margin)
-//        replayBtn.frame = CGRect(x: angryView.maxX + margin, y: screenHeight - margin - heightButton, width: widthButton, height: heightButton)
-//
-//        playerImg1.frame = CGRect(x: happyView.maxX + margin*2, y: topMargin, width: witdhPlayer, height: witdhPlayer)
-//        playerImg3.frame = CGRect(x: playerImg1.x, y: playerImg1.maxY + marginPlayer, width: witdhPlayer, height: witdhPlayer)
-//        playerImg5.frame = CGRect(x: playerImg1.x, y: playerImg3.maxY + marginPlayer, width: witdhPlayer, height: witdhPlayer)
-//        playerImg7.frame = CGRect(x: playerImg1.x, y: playerImg5.maxY + marginPlayer, width: witdhPlayer, height: witdhPlayer)
-//
-//        playerImg2.frame = CGRect(x: sadView.x - witdhPlayer - margin*2, y: topMargin, width: witdhPlayer, height: witdhPlayer)
-//        playerImg4.frame = CGRect(x: playerImg2.x, y: playerImg2.maxY + marginPlayer, width: witdhPlayer, height: witdhPlayer)
-//        playerImg6.frame = CGRect(x: playerImg2.x, y: playerImg4.maxY + marginPlayer, width: witdhPlayer, height: witdhPlayer)
-//        playerImg8.frame = CGRect(x: playerImg2.x, y: playerImg6.maxY + marginPlayer, width: witdhPlayer, height: witdhPlayer)
-
+        let topMargin: CGFloat = 0.15 * Constants.Height
+        let leftMargin: CGFloat = Constants.Width * 0.04
+        let width: CGFloat = Constants.Height*0.25
+        let widthPlayer: CGFloat = Constants.Height*0.23
+        happyView.frame = CGRect(x: leftMargin, y: topMargin, width: width, height: width)
+        angryView.frame = CGRect(x: leftMargin, y: Constants.Height - width - topMargin/2, width: width, height: width)
+        sadView.frame = CGRect(x: Constants.Width - width - leftMargin, y: topMargin, width: width, height: width)
+        afraidView.frame = CGRect(x: Constants.Width - width - leftMargin, y: Constants.Height - width - topMargin/2, width: width, height: width)
+        
+        let posXPlayerLeft: CGFloat = Constants.Width/2 - widthPlayer - 40
+        let posXPlayerRight: CGFloat = Constants.Width/2 + 40
+        let topMarginPlayer: CGFloat = happyView.center.y
+        let bottomMarginPlayer: CGFloat = happyView.center.y*2.1
+        playerImg1.frame = CGRect(x: posXPlayerLeft, y: topMarginPlayer, width: widthPlayer, height: widthPlayer)
+        playerImg3.frame = CGRect(x: posXPlayerLeft, y: bottomMarginPlayer, width: widthPlayer, height: widthPlayer)
+        playerImg2.frame = CGRect(x: posXPlayerRight, y: topMarginPlayer, width: widthPlayer, height: widthPlayer)
+        playerImg4.frame = CGRect(x: posXPlayerRight, y: bottomMarginPlayer, width: widthPlayer, height: widthPlayer)
+        
+        let hBtn: CGFloat = Constants.Height*0.1
+        let wBtn: CGFloat = Constants.Width*0.3
+        replayBtn.frame = CGRect(x: 0, y: Constants.Height-20-hBtn, width: wBtn, height: hBtn)
+        replayBtn.center.x = view.center.x
     }
 }
