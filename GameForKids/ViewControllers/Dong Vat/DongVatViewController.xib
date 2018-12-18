@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gKE-ak-DTy">
-                    <rect key="frame" x="16" y="36" width="992" height="329"/>
+                    <rect key="frame" x="16" y="40" width="992" height="329"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmC-7i-95E">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="329"/>
@@ -47,7 +47,7 @@
                     </subviews>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="TjN-LT-7rK">
-                    <rect key="frame" x="181.5" y="381" width="661" height="329.5"/>
+                    <rect key="frame" x="181.5" y="385" width="661" height="329.5"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGq-i7-MYU">
                             <rect key="frame" x="0.0" y="0.0" width="322.5" height="329.5"/>
@@ -68,7 +68,7 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="gKE-ak-DTy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="06v-vg-5CL"/>
+                <constraint firstItem="gKE-ak-DTy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="06v-vg-5CL"/>
                 <constraint firstItem="TjN-LT-7rK" firstAttribute="height" secondItem="gKE-ak-DTy" secondAttribute="height" id="1C4-sz-5mQ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gKE-ak-DTy" secondAttribute="trailing" constant="16" id="5tc-oI-eQq"/>
                 <constraint firstItem="gKE-ak-DTy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="J4n-qu-YG7"/>

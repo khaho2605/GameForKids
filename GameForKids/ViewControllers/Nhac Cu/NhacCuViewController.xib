@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="V01-cR-9Rj">
-                    <rect key="frame" x="16" y="16" width="992" height="329"/>
+                    <rect key="frame" x="16" y="64" width="992" height="329"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7z1-VE-LLm">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="329"/>
@@ -47,7 +47,7 @@
                     </subviews>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="8fW-pO-HTT">
-                    <rect key="frame" x="181.5" y="361" width="661" height="329.5"/>
+                    <rect key="frame" x="181.5" y="409" width="661" height="329.5"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ips-62-JDZ">
                             <rect key="frame" x="0.0" y="0.0" width="322.5" height="329.5"/>
@@ -72,7 +72,7 @@
                 <constraint firstItem="8fW-pO-HTT" firstAttribute="width" secondItem="V01-cR-9Rj" secondAttribute="width" multiplier="2/3" id="8sF-pg-Vrk"/>
                 <constraint firstItem="V01-cR-9Rj" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="3/7" id="C27-Qw-LRa"/>
                 <constraint firstItem="8fW-pO-HTT" firstAttribute="top" secondItem="V01-cR-9Rj" secondAttribute="bottom" constant="16" id="djt-Sr-OMW"/>
-                <constraint firstItem="V01-cR-9Rj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="16" id="grk-H3-N5V"/>
+                <constraint firstItem="V01-cR-9Rj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="grk-H3-N5V"/>
                 <constraint firstItem="8fW-pO-HTT" firstAttribute="height" secondItem="V01-cR-9Rj" secondAttribute="height" id="p6V-SP-niV"/>
                 <constraint firstItem="8fW-pO-HTT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tYq-O2-mPZ"/>
                 <constraint firstAttribute="trailing" secondItem="V01-cR-9Rj" secondAttribute="trailing" constant="16" id="wDP-l0-6mu"/>
