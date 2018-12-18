@@ -50,6 +50,7 @@
 		EAC2A0C421C9294C0013AD17 /* bo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAC2A0BA21C9294C0013AD17 /* bo.mp4 */; };
 		EAC2A0C621C92EDC0013AD17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2A0C521C92EDC0013AD17 /* Constants.swift */; };
 		EAC2A0C921C9348E0013AD17 /* UIView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2A0C821C9348E0013AD17 /* UIView+Extentions.swift */; };
+		EAC2A0CB21C940D00013AD17 /* bong_no.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC2A0CA21C940D00013AD17 /* bong_no.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		EAC2A0BA21C9294C0013AD17 /* bo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bo.mp4; sourceTree = "<group>"; };
 		EAC2A0C521C92EDC0013AD17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EAC2A0C821C9348E0013AD17 /* UIView+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extentions.swift"; sourceTree = "<group>"; };
+		EAC2A0CA21C940D00013AD17 /* bong_no.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bong_no.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		EA11D64021C7D9E700EF6120 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				EAC2A0CA21C940D00013AD17 /* bong_no.mp3 */,
 				EA11D64D21C7DA1600EF6120 /* AllFallDown.mp3 */,
 				EA11D64721C7DA0A00EF6120 /* be that gioi.wav */,
 				EA11D64821C7DA0A00EF6120 /* Correct.mp3 */,
@@ -367,6 +370,7 @@
 				EAC2A0BC21C9294C0013AD17 /* taulua.mp4 in Resources */,
 				EAC2A0C221C9294C0013AD17 /* ga.mp4 in Resources */,
 				EA11D64421C7D9F800EF6120 /* VoTay.mp3 in Resources */,
+				EAC2A0CB21C940D00013AD17 /* bong_no.mp3 in Resources */,
 				EA11D66821C7F0B200EF6120 /* ChamSocNewViewController.xib in Resources */,
 				EA11D64921C7DA0A00EF6120 /* dung roi.wav in Resources */,
 				EA11D64B21C7DA0A00EF6120 /* be that gioi.wav in Resources */,
