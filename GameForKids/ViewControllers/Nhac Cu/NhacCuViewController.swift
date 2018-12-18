@@ -21,22 +21,22 @@ class NhacCuViewController: BaseViewController {
         self.title = "NHẠC CỤ"
     }
     @IBAction func violonBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "violon", type: "MOV")
+        self.showVideo(name: "violon", type: "mp4")
     }
     
     @IBAction func trongBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "trong", type: "MOV")
+        self.showVideo(name: "trong", type: "mp4")
     }
     
     @IBAction func danTungBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "DanTung", type: "MOV")
+        self.showVideo(name: "DanTung", type: "mp4")
     }
     
     @IBAction func kenBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "ken", type: "MOV")
+        self.showVideo(name: "ken", type: "mp4")
     }
     
     @IBAction func danBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "dan", type: "MOV")
+        self.showVideo(name: "dan", type: "mp4")
     }
 }

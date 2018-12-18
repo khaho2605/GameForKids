@@ -33,6 +33,11 @@
 		EA9EF49921BE9B37004AF132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9EF49721BE9B37004AF132 /* Main.storyboard */; };
 		EA9EF49B21BE9B39004AF132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9EF49A21BE9B39004AF132 /* Assets.xcassets */; };
 		EA9EF49E21BE9B39004AF132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9EF49C21BE9B39004AF132 /* LaunchScreen.storyboard */; };
+		EAC2A0AA21C928220013AD17 /* trong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAC2A0A521C928220013AD17 /* trong.mp4 */; };
+		EAC2A0AB21C928220013AD17 /* DanTung.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAC2A0A621C928220013AD17 /* DanTung.mp4 */; };
+		EAC2A0AC21C928220013AD17 /* dan.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAC2A0A721C928220013AD17 /* dan.mp4 */; };
+		EAC2A0AD21C928220013AD17 /* ken.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAC2A0A821C928220013AD17 /* ken.mp4 */; };
+		EAC2A0AE21C928220013AD17 /* violon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAC2A0A921C928220013AD17 /* violon.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +69,11 @@
 		EA9EF49A21BE9B39004AF132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA9EF49D21BE9B39004AF132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA9EF49F21BE9B39004AF132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC2A0A521C928220013AD17 /* trong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trong.mp4; sourceTree = "<group>"; };
+		EAC2A0A621C928220013AD17 /* DanTung.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DanTung.mp4; sourceTree = "<group>"; };
+		EAC2A0A721C928220013AD17 /* dan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dan.mp4; sourceTree = "<group>"; };
+		EAC2A0A821C928220013AD17 /* ken.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ken.mp4; sourceTree = "<group>"; };
+		EAC2A0A921C928220013AD17 /* violon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = violon.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +158,7 @@
 		EA2D7A8721C5054800ADDE5D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EAC2A0A321C9273E0013AD17 /* Video */,
 				EA11D64021C7D9E700EF6120 /* Sound */,
 				EA2D7A8821C5057C00ADDE5D /* Array.swift */,
 			);
@@ -205,6 +216,26 @@
 				EA9EF49F21BE9B39004AF132 /* Info.plist */,
 			);
 			path = GameForKids;
+			sourceTree = "<group>";
+		};
+		EAC2A0A321C9273E0013AD17 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2A0A421C928220013AD17 /* Nhac cu */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		EAC2A0A421C928220013AD17 /* Nhac cu */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2A0A521C928220013AD17 /* trong.mp4 */,
+				EAC2A0A621C928220013AD17 /* DanTung.mp4 */,
+				EAC2A0A721C928220013AD17 /* dan.mp4 */,
+				EAC2A0A821C928220013AD17 /* ken.mp4 */,
+				EAC2A0A921C928220013AD17 /* violon.mp4 */,
+			);
+			path = "Nhac cu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +296,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC2A0AD21C928220013AD17 /* ken.mp4 in Resources */,
 				EA11D66221C7E7CB00EF6120 /* BubbleViewController.xib in Resources */,
+				EAC2A0AB21C928220013AD17 /* DanTung.mp4 in Resources */,
 				EA9EF49E21BE9B39004AF132 /* LaunchScreen.storyboard in Resources */,
+				EAC2A0AE21C928220013AD17 /* violon.mp4 in Resources */,
 				EA9EF49B21BE9B39004AF132 /* Assets.xcassets in Resources */,
 				EA11D64421C7D9F800EF6120 /* VoTay.mp3 in Resources */,
 				EA11D66821C7F0B200EF6120 /* ChamSocNewViewController.xib in Resources */,
@@ -274,6 +308,8 @@
 				EA11D64B21C7DA0A00EF6120 /* be that gioi.wav in Resources */,
 				EA11D65E21C7E74F00EF6120 /* PhuongTienViewController.xib in Resources */,
 				EA11D65921C7E73100EF6120 /* NhacCuViewController.xib in Resources */,
+				EAC2A0AC21C928220013AD17 /* dan.mp4 in Resources */,
+				EAC2A0AA21C928220013AD17 /* trong.mp4 in Resources */,
 				EA11D64C21C7DA0A00EF6120 /* Correct.mp3 in Resources */,
 				EA11D64A21C7DA0A00EF6120 /* thu cach khac.wav in Resources */,
 				EA11D64321C7D9F800EF6120 /* Wrong.mp3 in Resources */,
