@@ -21,22 +21,22 @@ class DongVatViewController: BaseViewController {
     }
 
     @IBAction func dogBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "cho", type: "MOV")
+        self.showVideo(name: "cho", type: "mp4")
     }
     
     @IBAction func chickenBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "ga", type: "MOV")
+        self.showVideo(name: "ga", type: "mp4")
     }
     
     @IBAction func catBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "meo", type: "MOV")
+        self.showVideo(name: "meo", type: "mp4")
     }
     
     @IBAction func pigBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "heo", type: "MOV")
+        self.showVideo(name: "heo", type: "mp4")
     }
     
     @IBAction func cowBtnDidTap(_ sender: Any) {
-        self.showVideo(name: "bo", type: "MOV")
+        self.showVideo(name: "bo", type: "mp4")
     }
 }
