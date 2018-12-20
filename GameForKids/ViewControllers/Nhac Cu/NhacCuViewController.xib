@@ -20,38 +20,23 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="V01-cR-9Rj">
-                    <rect key="frame" x="16" y="64" width="992" height="329"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7z1-VE-LLm">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="329"/>
-                            <state key="normal" backgroundImage="violin"/>
-                            <connections>
-                                <action selector="violonBtnDidTap:" destination="-1" eventType="touchUpInside" id="gOg-5Q-wdJ"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vht-MR-HUF">
-                            <rect key="frame" x="336" y="0.0" width="320" height="329"/>
-                            <state key="normal" backgroundImage="trong"/>
-                            <connections>
-                                <action selector="trongBtnDidTap:" destination="-1" eventType="touchUpInside" id="BhC-Oi-Z5D"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJt-Tf-eye">
-                            <rect key="frame" x="672" y="0.0" width="320" height="329"/>
-                            <state key="normal" backgroundImage="dantung"/>
-                            <connections>
-                                <action selector="danTungBtnDidTap:" destination="-1" eventType="touchUpInside" id="0c9-Vv-AhY"/>
-                            </connections>
-                        </button>
-                    </subviews>
-                </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="8fW-pO-HTT">
-                    <rect key="frame" x="181.5" y="409" width="661" height="329.5"/>
+                    <rect key="frame" x="181.5" y="423" width="661" height="329.5"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ips-62-JDZ">
                             <rect key="frame" x="0.0" y="0.0" width="322.5" height="329.5"/>
                             <state key="normal" backgroundImage="ken"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="kenBtnDidTap:" destination="-1" eventType="touchUpInside" id="dfc-Jm-gLs"/>
                             </connections>
@@ -59,8 +44,78 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AB9-gq-1sp">
                             <rect key="frame" x="338.5" y="0.0" width="322.5" height="329.5"/>
                             <state key="normal" backgroundImage="piano"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="danBtnDidTap:" destination="-1" eventType="touchUpInside" id="Xyb-cn-enX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="V01-cR-9Rj">
+                    <rect key="frame" x="16" y="78" width="992" height="329"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7z1-VE-LLm">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="329"/>
+                            <state key="normal" backgroundImage="violin"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="violonBtnDidTap:" destination="-1" eventType="touchUpInside" id="gOg-5Q-wdJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vht-MR-HUF">
+                            <rect key="frame" x="336" y="0.0" width="320" height="329"/>
+                            <state key="normal" backgroundImage="trong"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="trongBtnDidTap:" destination="-1" eventType="touchUpInside" id="BhC-Oi-Z5D"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJt-Tf-eye">
+                            <rect key="frame" x="672" y="0.0" width="320" height="329"/>
+                            <state key="normal" backgroundImage="dantung"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="danTungBtnDidTap:" destination="-1" eventType="touchUpInside" id="0c9-Vv-AhY"/>
                             </connections>
                         </button>
                     </subviews>
@@ -71,12 +126,13 @@
                 <constraint firstItem="V01-cR-9Rj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="7bs-3E-pux"/>
                 <constraint firstItem="8fW-pO-HTT" firstAttribute="width" secondItem="V01-cR-9Rj" secondAttribute="width" multiplier="2/3" id="8sF-pg-Vrk"/>
                 <constraint firstItem="V01-cR-9Rj" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="3/7" id="C27-Qw-LRa"/>
+                <constraint firstItem="V01-cR-9Rj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="JIB-yS-fyD"/>
                 <constraint firstItem="8fW-pO-HTT" firstAttribute="top" secondItem="V01-cR-9Rj" secondAttribute="bottom" constant="16" id="djt-Sr-OMW"/>
-                <constraint firstItem="V01-cR-9Rj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="grk-H3-N5V"/>
                 <constraint firstItem="8fW-pO-HTT" firstAttribute="height" secondItem="V01-cR-9Rj" secondAttribute="height" id="p6V-SP-niV"/>
                 <constraint firstItem="8fW-pO-HTT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tYq-O2-mPZ"/>
                 <constraint firstAttribute="trailing" secondItem="V01-cR-9Rj" secondAttribute="trailing" constant="16" id="wDP-l0-6mu"/>
             </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>

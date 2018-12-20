@@ -21,11 +21,22 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gKE-ak-DTy">
-                    <rect key="frame" x="16" y="40" width="992" height="329"/>
+                    <rect key="frame" x="16" y="78" width="992" height="329"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmC-7i-95E">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="329"/>
                             <state key="normal" backgroundImage="cho"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="dogBtnDidTap:" destination="-1" eventType="touchUpInside" id="CLq-62-mTA"/>
                             </connections>
@@ -33,6 +44,17 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X48-7F-6BR">
                             <rect key="frame" x="336" y="0.0" width="320" height="329"/>
                             <state key="normal" backgroundImage="ga"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="chickenBtnDidTap:" destination="-1" eventType="touchUpInside" id="VPe-JK-k86"/>
                             </connections>
@@ -40,6 +62,17 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2Q-8g-uZf">
                             <rect key="frame" x="672" y="0.0" width="320" height="329"/>
                             <state key="normal" backgroundImage="meo"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="catBtnDidTap:" destination="-1" eventType="touchUpInside" id="3nH-AP-0W6"/>
                             </connections>
@@ -47,11 +80,22 @@
                     </subviews>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="TjN-LT-7rK">
-                    <rect key="frame" x="181.5" y="385" width="661" height="329.5"/>
+                    <rect key="frame" x="181.5" y="423" width="661" height="329.5"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGq-i7-MYU">
                             <rect key="frame" x="0.0" y="0.0" width="322.5" height="329.5"/>
                             <state key="normal" backgroundImage="heo"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="pigBtnDidTap:" destination="-1" eventType="touchUpInside" id="hiR-Qr-PSb"/>
                             </connections>
@@ -59,6 +103,17 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXp-Qu-Jsg">
                             <rect key="frame" x="338.5" y="0.0" width="322.5" height="329.5"/>
                             <state key="normal" backgroundImage="bo"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="cowBtnDidTap:" destination="-1" eventType="touchUpInside" id="pZ0-a9-6QT"/>
                             </connections>
@@ -68,7 +123,7 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="gKE-ak-DTy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="06v-vg-5CL"/>
+                <constraint firstItem="gKE-ak-DTy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="06v-vg-5CL"/>
                 <constraint firstItem="TjN-LT-7rK" firstAttribute="height" secondItem="gKE-ak-DTy" secondAttribute="height" id="1C4-sz-5mQ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gKE-ak-DTy" secondAttribute="trailing" constant="16" id="5tc-oI-eQq"/>
                 <constraint firstItem="gKE-ak-DTy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="J4n-qu-YG7"/>
@@ -77,6 +132,7 @@
                 <constraint firstItem="gKE-ak-DTy" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="3/7" id="Wq6-D9-PtB"/>
                 <constraint firstItem="TjN-LT-7rK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lxf-ru-u0q"/>
             </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
         <tapGestureRecognizer id="KEY-hq-I8f">
