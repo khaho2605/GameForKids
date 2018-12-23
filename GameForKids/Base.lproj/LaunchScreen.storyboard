@@ -17,7 +17,18 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lauchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="V00-XL-uFg">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="V00-XL-uFg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="11T-LV-2b2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V00-XL-uFg" secondAttribute="bottom" id="JgW-Z5-Qbs"/>
+                            <constraint firstItem="V00-XL-uFg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a8a-MW-jwJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V00-XL-uFg" secondAttribute="trailing" id="jPc-fe-3Qt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -26,4 +37,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lauchScreen" width="893" height="522"/>
+    </resources>
 </document>

@@ -21,117 +21,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="mrh-G7-wsS">
                                 <rect key="frame" x="0.0" y="70" width="1024" height="698"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nNb-at-OoM">
-                                <rect key="frame" x="20" y="306.5" width="984" height="155"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EQY-46-3mS">
-                                        <rect key="frame" x="0.0" y="0.0" width="487" height="155"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrw-x7-crM">
-                                                <rect key="frame" x="0.0" y="0.0" width="487" height="45"/>
-                                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="NHẬN BIẾT CẢM XÚC">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="8"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="camXuc1BtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b3V-6V-AWa"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U34-Yi-JET">
-                                                <rect key="frame" x="0.0" y="55" width="487" height="45"/>
-                                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="NHẬN BIẾT PHƯƠNG TIỆN">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="8"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="phuongTienBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d2Y-15-aic"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKR-Y7-o4e">
-                                                <rect key="frame" x="0.0" y="110" width="487" height="45"/>
-                                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="NHẬN BIẾT ĐỘNG VẬT">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="8"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="dongVatBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CgG-vU-2eR"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="N6t-fF-GV9">
-                                        <rect key="frame" x="497" y="0.0" width="487" height="155"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LO9-X4-Sb7">
-                                                <rect key="frame" x="0.0" y="0.0" width="487" height="45"/>
-                                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="NHẬN BIẾT NHẠC CỤ">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="8"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="nhacCuBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNm-yu-lSG"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjm-n1-fW8">
-                                                <rect key="frame" x="0.0" y="55" width="487" height="45"/>
-                                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="PHẢN XẠ VỚI BONG BÓNG">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="8"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="bongBongBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ct-3W-zyF"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUL-G1-QQZ">
-                                                <rect key="frame" x="0.0" y="110" width="487" height="45"/>
-                                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                                <state key="normal" title="CHĂM SÓC BẢN THÂN">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="8"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="chamSocBanThanBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vdf-qW-k3F"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bB-ul-qPh">
                                 <rect key="frame" x="272" y="622.5" width="480" height="95.5"/>
                                 <string key="text">Trò chơi dành cho trẻ tự kỷ
@@ -140,18 +29,132 @@ Games for autistic children </string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrw-x7-crM">
+                                <rect key="frame" x="27" y="100" width="372" height="80"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Hrw-x7-crM" secondAttribute="height" multiplier="93:20" id="1XN-4z-C4i"/>
+                                    <constraint firstAttribute="height" constant="80" id="3ul-Pa-xCj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <state key="normal" title="NHẬN BIẾT CẢM XÚC">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="camXuc1BtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b3V-6V-AWa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U34-Yi-JET">
+                                <rect key="frame" x="658" y="122" width="341" height="80"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <state key="normal" title="NHẬN BIẾT PHƯƠNG TIỆN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="phuongTienBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d2Y-15-aic"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKR-Y7-o4e">
+                                <rect key="frame" x="100" y="205" width="288" height="80"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <state key="normal" title="NHẬN BIẾT ĐỘNG VẬT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="dongVatBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CgG-vU-2eR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LO9-X4-Sb7">
+                                <rect key="frame" x="662" y="222" width="275" height="80"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <state key="normal" title="NHẬN BIẾT NHẠC CỤ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nhacCuBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNm-yu-lSG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUL-G1-QQZ">
+                                <rect key="frame" x="364.5" y="310" width="295" height="80"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <state key="normal" title="CHĂM SÓC BẢN THÂN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="chamSocBanThanBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vdf-qW-k3F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjm-n1-fW8">
+                                <rect key="frame" x="200" y="415" width="348" height="80"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.69411764710000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <state key="normal" title="PHẢN XẠ VỚI BONG BÓNG">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="bongBongBtnDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ct-3W-zyF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mrh-G7-wsS" secondAttribute="bottom" id="5hf-yE-cds"/>
+                            <constraint firstItem="rKR-Y7-o4e" firstAttribute="top" secondItem="Hrw-x7-crM" secondAttribute="bottom" constant="25" id="9Vu-qN-eUZ"/>
                             <constraint firstItem="mrh-G7-wsS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AB1-py-g34"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U34-Yi-JET" secondAttribute="trailing" constant="25" id="CQJ-Gz-rqp"/>
+                            <constraint firstItem="Hrw-x7-crM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="CTd-zM-JSS"/>
+                            <constraint firstItem="LO9-X4-Sb7" firstAttribute="top" secondItem="U34-Yi-JET" secondAttribute="bottom" constant="20" id="EdD-ku-rSH"/>
+                            <constraint firstItem="GUL-G1-QQZ" firstAttribute="top" secondItem="rKR-Y7-o4e" secondAttribute="bottom" constant="25" id="Ir2-Ze-Brn"/>
                             <constraint firstItem="mrh-G7-wsS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LBQ-hW-ynt"/>
+                            <constraint firstItem="gjm-n1-fW8" firstAttribute="height" secondItem="GUL-G1-QQZ" secondAttribute="height" id="MEe-Vt-BRh"/>
+                            <constraint firstItem="Hrw-x7-crM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="PiP-Hz-Own"/>
+                            <constraint firstItem="U34-Yi-JET" firstAttribute="height" secondItem="Hrw-x7-crM" secondAttribute="height" id="QHW-NZ-Q8d"/>
+                            <constraint firstItem="U34-Yi-JET" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="UOU-79-Q0z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4bB-ul-qPh" secondAttribute="bottom" constant="50" id="VE4-oT-nqq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mrh-G7-wsS" secondAttribute="trailing" id="WVc-IH-5uF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nNb-at-OoM" secondAttribute="trailing" constant="20" id="cg6-d3-IVO"/>
-                            <constraint firstItem="nNb-at-OoM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="k0k-cZ-fzv"/>
+                            <constraint firstItem="gjm-n1-fW8" firstAttribute="top" secondItem="GUL-G1-QQZ" secondAttribute="bottom" constant="25" id="f4K-Tc-zxa"/>
+                            <constraint firstItem="GUL-G1-QQZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l9g-NR-itb"/>
+                            <constraint firstItem="rKR-Y7-o4e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="nAp-eg-JJK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LO9-X4-Sb7" secondAttribute="trailing" constant="87" id="peS-kk-Bbb"/>
+                            <constraint firstItem="LO9-X4-Sb7" firstAttribute="height" secondItem="Hrw-x7-crM" secondAttribute="height" id="plw-Ev-hmB"/>
+                            <constraint firstItem="gjm-n1-fW8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="200" id="qc4-Yv-twc"/>
                             <constraint firstItem="4bB-ul-qPh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qxf-7X-jwa"/>
-                            <constraint firstItem="nNb-at-OoM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="vKm-qN-d34"/>
+                            <constraint firstItem="rKR-Y7-o4e" firstAttribute="height" secondItem="Hrw-x7-crM" secondAttribute="height" id="r1C-LT-EeA"/>
+                            <constraint firstItem="GUL-G1-QQZ" firstAttribute="height" secondItem="rKR-Y7-o4e" secondAttribute="height" id="zGE-p4-x5N"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
